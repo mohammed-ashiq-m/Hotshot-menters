@@ -1,0 +1,111 @@
+
+.pageOption {
+    overflow: hidden;
+    position: relative;
+    width: 100%; height:120px;
+}
+.option, .option img {     width: 131%;height: 122%; }
+.option {
+
+    position: absolute;
+    /* arctan(27 / 40) = 34.01935deg
+     * need to skew by 90deg - 34.01935deg = 55.98065deg
+    */
+    transform: skewX(-85.41deg);
+}
+.option:first-child {
+    left: 0.75em;
+    transform-origin: 100% 0%;
+    background-color: #de4b55;
+}
+.option:last-child {
+    right: -13.25em;
+    transform-origin: 0 100%;
+    background-color: #909090;
+}
+.frame{
+    height: 500px;
+    width: 100%;
+    background-color: #ede7e8;
+}
+.form-container{
+    background-color: #de4b55;
+    padding: 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 32vh;
+}
+.footer{
+    width: 100%;
+    height:100px;
+    background-color: #585858;
+
+}
+button{
+    margin-left: 185px;
+    background-color: #585858;
+}
+.form-group{
+    width: 260px;
+
+    border-radius: .25em;
+}
+
+
+
+
+.form-control{
+    border-radius: 0px;
+}
+
+
+img{
+    height: 38px;
+    width: 30px;
+}
+.hotshot{
+    height: 30px;
+    width: 40px;
+    background-color: springgreen;
+}
+.valid-form{
+    height: 40px;
+    width: 260px;
+    background-color:#585858 ;
+    margin-top: 380px;
+
+    border-radius: 7px;
+}
+.container-fluid2 {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.form-control{
+    border-radius:0px 4px 4px 0px;
+}
+
+
+.src{
+    float:left ;
+    background-color: #909090;
+}
+p{
+    color: #ede7e8;
+    text-align: center;
+}
+
+.mail{
+    float: left;
+}
+.cross{
+    float:left ;
+    margin-left: 20px;
+}
+.invalid{
+    float: left;
+    margin-top: 15px;
+    margin-left: 5px;
+}
