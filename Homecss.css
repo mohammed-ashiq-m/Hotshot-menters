@@ -1,0 +1,201 @@
+.flex-container {
+
+    height: 100px;
+}
+
+.row{
+    height: 80px;
+}
+.hmicone{
+    height: 60px;
+    width: 60px;
+    background-color: #ede7e8;
+    margin-top: 10px;
+}
+.hmicone  >img{
+    height:40px;
+    margin-left: 10px;
+}.lgicone >img{
+     height:40px;
+     margin-left: 11px;
+     margin-top: 5px;
+ }
+.hmicone >p {
+    margin-left: 11px;
+
+    margin-bottom: 1rem;
+    font-size: smaller;
+}
+.lgicone{
+    height: 60px;
+    width: 60px;
+    background-color: #ede7e8;
+    margin-top: 10px;
+
+}
+.lgicone>p{
+    margin-bottom: 1rem;
+    font-size: x-small;
+
+    margin-left: 10px;
+}
+.body-container{
+    height: 500px;
+    width: 100%;
+    background-color: #f0f0f0;
+}.footer{
+     height: 30px;
+     width: 100%;
+     background-color: #585858;
+ }
+.hmicone>a{
+    margin-left: 10px;
+    font-size: small;
+
+}
+
+
+.R1{
+    PADDING-TOP: 40PX;
+    PADDING-LEFT: 40PX;
+    background-color: #f0f0f0;
+}img{
+     height: 60px;
+ }
+.tab {
+    overflow: hidden;
+    background-color: #909090;
+    margin-left: -16px;
+    padding-left: -9px;
+    width: 339px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: #909090;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 17px;
+    transition: 0.3s;
+    font-size: 12px;
+}
+.tab button:hover {
+    border-radius: 0px 0px 0px 4px;
+    background-color: #de4b55;
+    margin-left: -15px;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.btn{
+    width: 275px;
+
+}
+
+.tab2{
+    overflow: hidden;
+    background-color:#909090;
+
+}
+
+.tab2 button{
+    background-color:#909090;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 12px;
+}
+.tab2 button:hover {
+    background-color: #de4b55;
+}
+
+/* Create an active/current tablink class */
+.tab2 button.active {
+    background-color:#de4b55;
+}
+.L1 {
+    height: 500px;
+    float: right;
+
+    background-color: #f0f0f0;
+}
+.aroow {
+    height: 12px;
+    margin-top: -16px;
+    margin-left: -140px;
+}
+.SP{
+    margin-top: 8px;
+    margin-left: -41px;
+    font-size: larger;
+}
+.aroow2{
+    height: 12px;
+    margin-top: -20px;
+    margin-left: -135px;
+}
+.rbtn2{
+    float: left;
+    height: 10px;
+    width: 10px;
+    margin-top: -11px;
+    margin-left: 332px;
+}
+/* Style the tab */
+.tab7 {
+    overflow: hidden;
+    height: 40px;
+    width: 275px;
+    margin-left: 215px;
+    border-radius: 4px;
+
+    background-color:#909090;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab7 button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab7 button:hover {
+    background-color: #de4b55;
+}
+
+/* Create an active/current tablink class */
+.tab7 button.active {
+    background-color: #de4b55;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+*a{
+    color: #f0f0f0;
+}

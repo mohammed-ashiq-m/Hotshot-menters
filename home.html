@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home-page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.8/css/all.css'>
+    <script src=" href='https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <link rel="stylesheet" href="Homecss.css">
+
+</head>
+<body>
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-2 col-md-1 " style="background-color: #de4b55">
+            <div class="hmicone">
+                <img src="images/home_large_icon-1.png">
+                <p>HOME</p>
+            </div>
+        </div>
+        <div class="col-8 col-md-10 "style="background-color: #de4b55"></div>
+        <div class="col-2 col-md-1"style="background-color: #de4b55">
+            <div class="lgicone">
+                <img src="images/logout.png">
+                <p>LOGOUT</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="row" style="height: 500px">
+        <div class="body-container">
+            <div class="row">
+                <div class="R1 col-6 " style="height: 500px">
+                    <div class="col-6 col-md-6 col-12">
+                        <div onclick="myShow1()" class="emp btn  p-0 " style="background-color:#909090">
+                            <img  src="images/employeebadge.png"><label style="color: #f0f0f0">MANAGE EMPLOYEE</label>
+                            <div id="showArrow1" class="rbtn2"  style=" float: left; height:10px;width: 10px;margin-top: -10px; margin-left: 329px;">
+                                <img class="aroow2" src="images/trianglr.png">
+                            </div>
+
+                            <div id="show1" class="col-12">
+                                <div class="tab col-12">
+                                    <button class="tablinks" onclick="openCity(event, 'London')"><a style="color: #f0f0f0">ADD</a></button>
+                                    <button class="tablinks" onclick="openCity(event, 'Paris')"><a style="color: #f0f0f0">VIEW</a></button>
+                                    <button class="tablinks" onclick="openCity(event, 'Tokyo')"><a style="color: #f0f0f0">SETTING</a></button>
+                                </div>
+
+                                <div id="London" class="tabcontent">
+                                    <h3>London</h3>
+                                    <p>London is the capital city of England.</p>
+                                </div>
+
+                                <div id="Paris" class="tabcontent">
+                                    <h3>Paris</h3>
+                                    <p>Paris is the capital of France.</p>
+                                </div>
+
+                                <div id="Tokyo" class="tabcontent">
+                                    <h3>Tokyo</h3>
+                                    <p>Tokyo is the capital of Japan.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br><br>
+                        <div onclick="myShow2()" class="btn p-0 col-12" style="background-color:#909090">
+                            <img src="images/accounts_icons.png"><label style="color: #f0f0f0">MANAGE ACCOUNT</label>
+                            <div id="ShowArrow2"class="rbtn"  style=" float: left; height:10px;width: 10px;margin-top: -10px; margin-left: 329px;">
+                                <img class="aroow " src="images/trianglr.png">
+                            </div>
+                            <div id="show2" class="col-12">
+                                <div class="tab2 col-12">
+                                    <button class="tablinks" onclick="openCity(event, 'London')"><a>ADD</a></button>
+                                    <button class="tablinks" onclick="openCity(event, 'Paris')"><a>VIEW</a></button>
+                                    <button class="tablinks" onclick="openCity(event, 'Tokyo')"><a>SETTING</a></button>
+                                </div>
+
+                                <div id="London" class="tabcontent">
+                                    <h3>London</h3>
+                                    <p>London is the capital city of England.</p>
+                                </div>
+
+                                <div id="Paris" class="tabcontent">
+                                    <h3>Paris</h3>
+                                    <p>Paris is the capital of France.</p>
+                                </div>
+
+                                <div id="Tokyo" class="tabcontent">
+                                    <h3>Tokyo</h3>
+                                    <p>Tokyo is the capital of Japan.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="L1 col-6 " style="height: 500px">
+                    <div class="row">
+                        <div onclick="myShow3()"class="col-5 btn p-0" style="height: 40px;margin-top: 40px; margin-left: 230px; background-color:#909090;">
+                            <label class="SP" style="color: #f0f0f0">STANDARD PROJECTS</label>
+                            <div id="ShowArow3" class="rbtn2"  style=" float: left; height:10px;width: 10px;margin-top: -10px; margin-left: 329px;">
+                                <img class="aroow2" src="images/trianglr.png">
+                            </div>
+                            <div id="show3" class="col-12">
+                                <div class="tab2 col-12">
+                                    <button class="tablinks" onclick="openCity(event, 'London')"><a>ADD</a></button>
+                                    <button class="tablinks" onclick="openCity(event, 'Paris')"><a>VIEW</a></button>
+                                    <button class="tablinks" onclick="openCity(event, 'Tokyo')"><a>SETTING</a></button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div onclick="myShow4()"class="col-5 btn  btn-sm p-0" style="height: 40px;margin-top: 40px; margin-left: 230px;background-color:#909090;">
+                            <label class="SP" style="color: #f0f0f0">INHOUSE PROJECTS</label>
+                            <div Show="ShowArrow3"class="rbtn2"  style=" float: left; height:10px;width: 10px;margin-top: -10px; margin-left: 329px;">
+                                <img class="aroow2" src="images/trianglr.png">
+                            </div>
+                            <div id="show4" class="col-12">
+                                <div class="tab2 col-12">
+                                    <button class="tablinks" onclick="openCity(event, 'London')"><a>ADD</a></button>
+                                    <button class="tablinks" onclick="openCity(event, 'Paris')"><a>VIEW</a></button>
+                                    <button class="tablinks" onclick="openCity(event, 'Tokyo')"><a>SETTING</a></button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="tab7">
+                        <button class="tablinks active" onclick="openCity(event, 'London')"><a style="color: #f0f0f0">ADD</a></button>
+                        <button class="tablinks" onclick="openCity(event, 'Paris')"><a style="color: #f0f0f0">VIEW</a></button>
+                        <button class="tablinks" onclick="openCity(event, 'Tokyo')"><a style="color: #f0f0f0">SETTING</a></button>
+                    </div>
+
+
+                    <div class="row">
+                        <div onclick="myShow5()"class="col-5 btn  btn-sm p-0" style="height: 40px;margin-top: 40px; margin-left: 230px;background-color:#909090;">
+                            <label class="SP" style="color: #f0f0f0">INTERNSHIP PROGRAM</label>
+                            <div id="ShowArrow4"class="rbtn2"  style=" float: left; height:10px;width: 10px;margin-top: -10px; margin-left: 329px;">
+                                <img class="aroow2" src="images/trianglr.png">
+                            </div>
+                            <div id="show5" class="col-12">
+                                <div class="tab2 col-12">
+                                    <button class="tablinks" onclick="openCity(event, 'London')"><a>ADD</a></button>
+                                    <button class="tablinks" onclick="openCity(event, 'Paris')"><a>VIEW</a></button>
+                                    <button class="tablinks" onclick="openCity(event, 'Tokyo')"><a>SETTING</a></button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="footer">
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<script>
+    document.getElementById("show1").style.display = "none";
+    document.getElementById("show2").style.display = "none";
+    document.getElementById("show3").style.display = "none";
+    document.getElementById("show4").style.display = "none";
+    document.getElementById("show5").style.display = "none";
+
+    function myShow1() {
+        var x = document.getElementById("show1");
+        var Y = document.getElementById("showArrow1");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+            Y.style.display = "none";
+        } else {
+            x.style.display = "none";
+            Y.style.display = "block";
+        }
+    }
+
+    function myShow2() {
+        var x = document.getElementById("show2");
+        var Y = document.getElementById("ShowArrow2");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+            Y.style.display = "none";
+        } else {
+            x.style.display = "none";
+        }
+    }
+
+    function myShow3() {
+        var x = document.getElementById("show3");
+        var Y = document.getElementById("ShowArrow3");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+            Y.style.display = "none";
+        } else {
+            x.style.display = "none";
+        }
+    }
+
+    function myShow4() {
+        var x = document.getElementById("show4");
+
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+
+    function myShow5() {
+        var x = document.getElementById("show5");
+        var Y = document.getElementById("ShowArrow4");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+            Y.style.display = "none";
+        } else {
+            x.style.display = "none";
+        }
+    }
+
+    function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" none" +
+                "", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " none";
+    }
+</script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
