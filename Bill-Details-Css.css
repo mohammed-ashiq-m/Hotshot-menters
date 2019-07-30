@@ -1,3 +1,6 @@
+body{
+    background-color: #ede7e8;
+}
 .d-flex{
     background-color: #de4b55;
 }
@@ -37,27 +40,47 @@
     width: 50px;
     margin-top: -13px;
     margin-left: -11px;
+}.emp{
+     background-color: #de4b55;
+     width: 250px;
+     color: #ede7e8;
+ }
+.flex-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
 }
-.employee-name{
-    background-color:#999999;
-    width: 350px;
-    text-align: left;
-    padding-bottom: 10px;
+.flex-container>div {
+    background-color: #f1f1f1;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 500px;
+    height: 350px;
 }
-.employee-name>a{
-    margin-left: 200px;
+.form{
+    text-align: -webkit-left;
 }
-.emp{
+.borderedt{
+    border-width: 0px;
+    background-color:#ede7e8;
+}
+.cancel>button{
     background-color: #de4b55;
-    width: 250px;
+    border-width: 0px;
 }
-.employee-name:hover{
+.edit>button{
     background-color: #de4b55;
+    border-width: 0px;
+
 }
-.list{
-    text-align: -webkit-center;
+.edit, .cancel{
+    background-color: #de4b55;
+    width: 150px;
 }
-.footer{
-    background-color: #777777;
-    height: 50px;
+.edit{
+    text-align: right;
 }
