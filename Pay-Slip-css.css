@@ -60,6 +60,7 @@ body{
     color: white;
     width: 500px;
     height: 350px;
+    border-radius: 5px;
 }
 .form{
     text-align: -webkit-left;
@@ -73,7 +74,7 @@ body{
     border-width: 0px;
 }
 .edit>button{
-    background-color: #de4b55;
+    background-color:#f0f0f0;
     border-width: 0px;
 
 }
