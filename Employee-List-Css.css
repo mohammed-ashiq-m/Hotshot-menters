@@ -1,0 +1,62 @@
+.d-flex{
+    background-color: #de4b55;
+}
+.home{
+    background-color: #ede7e8;
+    height: 50px;
+    width: 50px;
+}
+.back{
+    background-color: #ede7e8;
+    height: 50px;
+    width: 50px;
+}
+.logout{
+    background-color: #ede7e8;
+    height: 50px;
+    width: 50px;
+}
+.homeicon{
+    height: 50px;
+    width: 50px;
+    margin-top: -13px;
+    margin-left: -11px;
+}.btn>p {
+     font-size: small;
+     margin-top: -9px;
+     margin-left: -12px;
+ }
+.backicon{
+    height: 50px;
+    width: 50px;
+    margin-top: -13px;
+    margin-left: -11px;
+}
+.logout1{
+    height: 50px;
+    width: 50px;
+    margin-top: -13px;
+    margin-left: -11px;
+}
+.employee-name{
+    background-color:#999999;
+    width: 350px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+.employee-name>a{
+    margin-left: 200px;
+}
+.emp{
+    background-color: #de4b55;
+}
+.employee-name:hover{
+    background-color: #de4b55;
+}
+.list{
+    text-align: -webkit-center;
+}
+.footer{
+    background-color: #777777;
+    height: 50px;
+}
