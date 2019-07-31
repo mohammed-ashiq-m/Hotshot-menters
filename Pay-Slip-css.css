@@ -74,14 +74,19 @@ body{
     border-width: 0px;
 }
 .edit>button{
-    background-color:#de4b55;
+    background-color:#cccccc;
     border-width: 0px;
 
 }
-.edit, .cancel{
-    background-color: #de4b55;
+.edit {
+    background-color: #cccccc;
     width: 150px;
 }
 .edit{
-    text-align: right;
+    text-align: center;
+}
+.cancel{
+    background-color: #de4b55;
+    width: 150px;
+    text-align: center;
 }

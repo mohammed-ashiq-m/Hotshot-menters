@@ -235,3 +235,24 @@ input[type='radio']:checked:after {
     margin-left: 76px;
     margin-top: -38px;
 }
+.cancel>button{
+    background-color: #de4b55;
+    border-width: 0px;
+}
+.edit>button{
+    background-color:#cccccc;
+    border-width: 0px;
+
+}
+.edit {
+    background-color: #cccccc;
+    width: 150px;
+}
+.edit{
+    text-align: center;
+}
+.cancel{
+    background-color: #de4b55;
+    width: 150px;
+    text-align: center;
+}

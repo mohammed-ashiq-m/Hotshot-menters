@@ -59,5 +59,21 @@
 }
 .footer{
     background-color: #777777;
-    height: 50px;
+    height: 40px;
+}
+.cancel>button{
+    background-color: #de4b55;
+    border-width: 0px;
+}
+.edit>button{
+    background-color:#de4b55;
+    border-width: 0px;
+
+}
+.edit, .cancel{
+    background-color: #de4b55;
+    width: 150px;
+}
+.edit {
+    text-align: right;
 }
