@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home-Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="Home-page-css.css">
+
+
+</head>
+<body>
+
+
+<div class="d-flex mb-3 ">
+    <div class="f p-2 mr-auto ">
+
+        <div class="home">
+            <button type="button" class="btn">
+                <img class="homeicon" src="images/home_large_icon-1.png">
+                <p>Home</p>
+            </button>
+        </div>
+
+    </div>
+
+    <div class="f p-2 ">
+        <div class="logout">
+            <button type="button" class="btn">
+                <img class="logout1" src="images/logout.png">
+                <p>Logout</p>
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6" style="height: 100%;">
+        <div class="container-fluid">
+            <div onclick="myShow1()" class="emp btn  p-0">
+                <img  src="images/employeebadge.png"><label style="color: #f0f0f0">MANAGE EMPLOYEE</label>
+                <div id="showArrow1" class="btn red-button">
+                    <img class="aroow2" src="images/trianglr.png">
+                </div>
+                <div id="show1" class="tab manage-tab">
+                    <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+                    <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+                    <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+                </div>
+
+                <div id="London" class="tabcontent">
+                    <h3>London</h3>
+
+                </div>
+
+                <div id="Paris" class="tabcontent">
+                    <h3>Paris</h3>
+
+                </div>
+
+                <div id="Tokyo" class="tabcontent">
+                    <h3>Tokyo</h3>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div onclick="myShow2()" class="emp btn  p-0">
+                <img src="images/accounts_icons.png"><label style="color: #f0f0f0">MANAGE ACCOUNT</label>
+                <div id="showArrow2" class="btn red-button">
+                    <img class="aroow2" src="images/trianglr.png">
+                </div>
+                <div id="show2" class="tab manage-tab">
+                    <button class="tablinks" onclick="openCity1(event, 'London')">London</button>
+                    <button class="tablinks" onclick="openCity1(event, 'Paris')">Paris</button>
+                    <button class="tablinks" onclick="openCity1(event, 'Tokyo')">Tokyo</button>
+                </div>
+
+                <div id="London" class="tabcontent">
+                    <h3>London</h3>
+
+                </div>
+
+                <div id="Paris" class="tabcontent">
+                    <h3>Paris</h3>
+
+                </div>
+
+                <div id="Tokyo" class="tabcontent">
+                    <h3>Tokyo</h3>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6" style="height:100%; margin-bottom: 2pc;">
+
+        <div class="col-md6">
+            <div class="container-fluid">
+                <div onclick="myShow3()" class="project btn  p-0">
+                    <label style="color: #f0f0f0">STANDARD PROJECT</label>
+                    <div id="showArrow3" class="btn red-button">
+                        <img class="aroow3" src="images/trianglr.png">
+                    </div>
+                    <div id="show3" class="tab project-tab">
+                        <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+                        <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+                        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+                    </div>
+
+                    <div id="London" class="tabcontent">
+                        <h3>London</h3>
+
+                    </div>
+
+                    <div id="Paris" class="tabcontent">
+                        <h3>Paris</h3>
+
+                    </div>
+
+                    <div id="Tokyo" class="tabcontent">
+                        <h3>Tokyo</h3>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md6">
+            <div class="container-fluid">
+                <div onclick="myShow4()" class="project btn  p-0">
+                    <label style="color: #f0f0f0">INHOUSE PROJECT</label>
+                    <div id="showArrow4" class="btn red-button">
+                        <img class="aroow3" src="images/trianglr.png">
+                    </div>
+                    <div id="show4" class="tab project-tab">
+                        <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+                        <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+                        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+                    </div>
+
+                    <div id="London" class="tabcontent">
+                        <h3>London</h3>
+
+                    </div>
+
+                    <div id="Paris" class="tabcontent">
+                        <h3>Paris</h3>
+
+                    </div>
+
+                    <div id="Tokyo" class="tabcontent">
+                        <h3>Tokyo</h3>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md6">
+            <div class="container-fluid">
+                <div onclick="myShow5()" class="project btn  p-0">
+                    <label style="color: #f0f0f0">MANAGE COURSE</label>
+                    <div id="showArrow5" class="btn red-button">
+                        <img class="aroow3" src="images/trianglr.png">
+                    </div>
+                    <div id="show5" class="tab project-tab">
+                        <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+                        <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+                        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+                    </div>
+
+                    <div id="London" class="tabcontent">
+                        <h3>London</h3>
+
+                    </div>
+
+                    <div id="Paris" class="tabcontent">
+                        <h3>Paris</h3>
+
+                    </div>
+
+                    <div id="Tokyo" class="tabcontent">
+                        <h3>Tokyo</h3>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md6">
+            <div class="container-fluid">
+                <div onclick="myShow6()" class="project btn  p-0">
+                    <label style="color: #f0f0f0">INTERNSHIP PROGRAM</label>
+                    <div id="showArrow6" class="btn red-button">
+                        <img class="aroow3" src="images/trianglr.png">
+                    </div>
+                    <div id="show6" class="tab project-tab">
+                        <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+                        <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+                        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+                    </div>
+
+                    <div id="London" class="tabcontent">
+                        <h3>London</h3>
+
+                    </div>
+
+                    <div id="Paris" class="tabcontent">
+                        <h3>Paris</h3>
+
+                    </div>
+
+                    <div id="Tokyo" class="tabcontent">
+                        <h3>Tokyo</h3>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</div>
+
+<div class="footer row">
+
+</div>
+<script>
+    document.getElementById("show1").style.display = "none";
+    document.getElementById("show2").style.display = "none";
+    document.getElementById("show3").style.display = "none";
+    document.getElementById("show4").style.display = "none";
+    document.getElementById("show5").style.display = "none";
+    document.getElementById("show6").style.display = "none";
+
+    function myShow1() {
+        var x = document.getElementById("show1");
+        var Y = document.getElementById("showArrow1");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+            Y.style.display = "none";
+        } else {
+            x.style.display = "none";
+            Y.style.display = "block";
+        }
+    }
+
+    function myShow2() {
+        var x = document.getElementById("show2");
+        var Y = document.getElementById("showArrow2");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+            Y.style.display = "none";
+        } else {
+            x.style.display = "none";
+            Y.style.display = "block";
+        }
+    }
+
+    function myShow3() {
+        var x = document.getElementById("show3");
+        var Y = document.getElementById("showArrow3");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+            Y.style.display = "none";
+        } else {
+            x.style.display = "none";
+            Y.style.display = "block";
+        }
+    }
+
+    function myShow4() {
+        var x = document.getElementById("show4");
+        var Y = document.getElementById("showArrow4");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+            Y.style.display = "none";
+        } else {
+            x.style.display = "none";
+            Y.style.display = "block";
+        }
+    }
+
+    function myShow5() {
+        var x = document.getElementById("show5");
+        var Y = document.getElementById("showArrow5");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+            Y.style.display = "none";
+        } else {
+            x.style.display = "none";
+            Y.style.display = "block";
+        }
+    }
+
+    function myShow6() {
+        var x = document.getElementById("show6");
+        var Y = document.getElementById("showArrow6");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+            Y.style.display = "none";
+        } else {
+            x.style.display = "none";
+            Y.style.display = "block";
+        }
+    }
+</script>
+<script>
+    function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+    function openCity1(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+</script>
+
+</body>
+</html>
