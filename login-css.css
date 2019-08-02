@@ -1,27 +1,17 @@
 
-.pageOption {
-    overflow: hidden;
-    position: relative;
-    width: 100%; height:120px;
-}
-.option, .option img {     width: 131%;height: 122%; }
-.option {
+.Banner{
+    height: 100px;
 
-    position: absolute;
-    /* arctan(27 / 40) = 34.01935deg
-     * need to skew by 90deg - 34.01935deg = 55.98065deg
-    */
-    transform: skewX(-85.41deg);
 }
-.option:first-child {
-    left: 0.75em;
-    transform-origin: 100% 0%;
-    background-color: #de4b55;
+.Banner>img{
+    width: 100%;
+    height: 110px;
 }
-.option:last-child {
-    right: -13.25em;
-    transform-origin: 0 100%;
-    background-color: #909090;
+.logo>img{
+    height: 50px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: -135px;
 }
 .frame{
     height: 500px;
@@ -33,10 +23,9 @@
     padding: 30px;
     border-radius: 10px;
     position: absolute;
-    top: 32vh;
+    margin-top: 100px;
 }
 .footer{
-    width: 100%;
     height:100px;
     background-color: #585858;
 
@@ -89,8 +78,11 @@ img{
 
 
 .src{
-    float:left ;
+    float: left;
     background-color: #909090;
+    border-radius: 4px 0px 0px 4px;
+    padding: 2px;
+    height: 38px;
 }
 p{
     color: #ede7e8;
@@ -101,11 +93,23 @@ p{
     float: left;
 }
 .cross{
-    float:left ;
+    float: left;
     margin-left: 20px;
+    margin-top: 7px;
 }
 .invalid{
     float: left;
     margin-top: 15px;
     margin-left: 5px;
+}
+.message{
+    margin-top: -7px;
+}
+.cross>img{
+    height: 20px;
+    width: 20px;
+}
+.src>img{
+    height: 31px;
+    width: 29px;
 }
