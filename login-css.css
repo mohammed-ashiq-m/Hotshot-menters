@@ -88,8 +88,8 @@ p{
     color: #ede7e8;
     text-align: center;
 }
-
 .mail{
+    width: 215px;
     float: left;
 }
 .cross{
@@ -111,5 +111,5 @@ p{
 }
 .src>img{
     height: 31px;
-    width: 29px;
+    width: 31px;
 }
